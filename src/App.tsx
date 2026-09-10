@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import { courses, categories } from './data/courses';
 import { CourseCard, type CourseStatus } from './components/CourseCard';
 import { ProgressHeader } from './components/ProgressHeader';
